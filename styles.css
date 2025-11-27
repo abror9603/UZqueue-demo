@@ -671,6 +671,12 @@ section {
     box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);
 }
 
+.check-emoji {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
 .uzqueue-row .check-yes {
     background: var(--primary-color);
     box-shadow: 0 2px 8px rgba(99, 102, 241, 0.4);
