@@ -814,6 +814,64 @@ section {
     color: var(--primary-color);
 }
 
+.team-links {
+    text-align: left;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--bg-light);
+}
+
+.team-links h4 {
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    font-size: 1.1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.social-link i {
+    font-size: 1.2rem;
+}
+
+.social-link.github {
+    background: #24292e;
+    color: white;
+}
+
+.social-link.github:hover {
+    background: #2f363d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(36, 41, 46, 0.3);
+}
+
+.social-link.linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+.social-link.linkedin:hover {
+    background: #005885;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 119, 181, 0.3);
+}
+
 /* Why Us Section */
 .why-us-section {
     background: white;
